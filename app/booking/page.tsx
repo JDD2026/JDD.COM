@@ -34,7 +34,7 @@ export default function BookingPage() {
           <h2 className="text-2xl text-center neon-text-purple text-shadow-neon-purple font-semibold text-accent">
             What to expect
           </h2>
-          <ol className="mt-4 md:ml-20 lg:ml-40 list-inside neon-text-yellow text-shadow-neon-pink list-decimal space-y-2">
+          <ol className="mt-4 md:ml-20 lg:ml-40 list-inside neon-text-yellow text-shadow-neon-yellow list-decimal space-y-2">
             {workflowSteps.map((step, i) => (
               <li key={i}>{step}</li>
             ))}
