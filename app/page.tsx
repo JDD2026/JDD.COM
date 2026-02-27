@@ -276,10 +276,10 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* Reviews: trippy animated background with rotating quote (matches gallery section width) */}
+        {/* Reviews: rotating quote (matches gallery section width) */}
         <section
           aria-label="Reviews"
-          className="relative mt-8 flex min-h-[120px] w-full items-center overflow-hidden rounded-t-lg md:mt-10 lg:mt-12"
+          className="relative mt-2 flex min-h-[120px] w-full items-center overflow-hidden rounded-t-lg md:mt-10 lg:mt-12"
         >
           <div className="absolute inset-0" aria-hidden />
           <div className="relative z-10 w-full px-4 md:px-6">
