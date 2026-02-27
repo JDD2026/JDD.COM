@@ -32,9 +32,9 @@ export default function ConsultingPage() {
       {/* Welcome */}
       <section
         aria-label="Consulting"
-        className="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen pb-10 pt-2"
+        className="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] px-4 sm:px-6 md:px-8 w-screen pb-10 pt-2"
       >
-        <div className="relative z-10 mx-auto max-w-2xl px-4 text-center sm:px-6 md:px-8">
+        <div className="relative z-10 mx-auto max-w-4xl  text-center ">
           <h1 className="text-4xl font-bold md:text-5xl neon-text-green text-shadow-neon-green">
             {welcomeHeading}
           </h1>
@@ -68,7 +68,7 @@ export default function ConsultingPage() {
         aria-label="Entertainment Science"
         className="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen px-4 pb-8 sm:px-6 md:px-8"
       >
-        <div className="relative z-10 mx-auto max-w-3xl space-y-6 text-center text-muted-foreground">
+        <div className="relative z-10 mx-auto max-w-4xl space-y-6 text-center text-muted-foreground">
         <Image src='/about-images/21.jpg' width={1000} height={1000} alt="Entertainment Solutions consulting" />
 
           <p className="text-lg leading-relaxed">{entertainmentScienceIntro}</p>
@@ -87,7 +87,7 @@ export default function ConsultingPage() {
         aria-label="Signature packages"
         className="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen px-4 pb-10 sm:px-6 md:px-8"
       >
-        <div className="relative z-10 mx-auto max-w-3xl">
+        <div className="relative z-10 mx-auto max-w-4xl">
         <Image src='/about-images/21.jpg' width={1000} height={1000} alt="Entertainment Solutions consulting" />
 
           <h2 className="text-center text-2xl font-semibold uppercase tracking-wide neon-text-green text-shadow-neon-green md:text-3xl">
@@ -149,7 +149,7 @@ export default function ConsultingPage() {
         aria-label="Why choose Entertainment Solutions"
         className="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen px-4 pb-10 sm:px-6 md:px-8"
       >
-        <div className="relative z-10 mx-auto max-w-5xl">
+        <div className="relative z-10 mx-auto max-w-4xl">
         <Image src='/about-images/21.jpg' width={1000} height={1000} alt="Entertainment Solutions consulting" />
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
@@ -175,7 +175,7 @@ export default function ConsultingPage() {
         aria-label="Coming soon"
         className="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen px-4 pb-10 sm:px-6 md:px-8"
       >
-        <div className="relative z-10 mx-auto max-w-2xl text-center">
+        <div className="relative z-10 mx-auto max-w-4xl text-center">
         <Image src='/about-images/21.jpg' width={1000} height={1000} alt="Entertainment Solutions consulting" />
 
           <h2 className="text-2xl font-semibold uppercase tracking-wide neon-text-green text-shadow-neon-green md:text-3xl">
