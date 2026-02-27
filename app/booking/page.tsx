@@ -28,17 +28,20 @@ export default function BookingPage() {
       {/* Workflow */}
       <section
         aria-label="What to expect"
-        className="px-4 md:px-4 md:mt-6 lg:mt-8 md:ml-20 lg:ml-40"
+        className="px-4 md:px-4 md:mt-6 lg:mt-8"
       >
         <div className="mx-auto max-w-4xl">
-          <h2 className="text-2xl font-semibold text-accent">
+          <h2 className="text-2xl text-center neon-text-purple text-shadow-neon-purple font-semibold text-accent">
             What to expect
           </h2>
-          <ol className="mt-4 list-inside list-decimal space-y-2 text-muted">
+          <ol className="mt-4 md:ml-20 lg:ml-40 list-inside neon-text-yellow text-shadow-neon-pink list-decimal space-y-2">
             {workflowSteps.map((step, i) => (
               <li key={i}>{step}</li>
             ))}
           </ol>
+          <p className="mx-auto text-center uppercase tracking-widest text-lg mt-6 space-y-2 text-muted-foreground">
+            Do you have a quick booking inquiry? Message me at <a href="mailto:portal@jesterdapperdan.com" className="text-accent hover:text-accent-hover">portal@jesterdapperdan.com</a>
+          </p>
         </div>
       </section>
 
@@ -46,7 +49,7 @@ export default function BookingPage() {
       <section
         id="inquiry"
         aria-label="Inquiry form"
-        className="mt-12 min-h-[400px] px-4 sm:px-6 md:px-8 md:mt-10 lg:mt-8"
+        className="mt-8 min-h-[400px] px-4 sm:px-6 md:px-8 md:mt-10 lg:mt-8"
       >
         <div className="mx-auto max-w-4xl">
           {TALLY_FORM_URL ? (
