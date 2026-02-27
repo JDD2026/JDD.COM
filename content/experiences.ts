@@ -18,27 +18,27 @@ export const experiencesContent: ExperiencesContent = {
     {
       title: "Intimate gatherings",
       description:
-        "Trickster comedian, fanciful host, captivating MC & LED flow magician. \"Watch me dazzle during cocktail hour with LED gizmos, cracking jokes & enthralling guests\"",
+        "Trickster comedian, fanciful host, captivating MC & LED flow magician.\n\"Watch me dazzle during cocktail hour with LED gizmos, cracking jokes & enthralling guests\"",
     },
     {
       title: "Holistic gatherings",
       description:
-        "Spiritual Yogi, health expert & meditation guide. \"Breathe in, relax your mind, and feel inner peace on the exhale\"",
+        "Spiritual Yogi, health expert & meditation guide.\n\"Breathe in, relax your mind, and feel inner peace on the exhale\"",
     },
     {
       title: "Adult entertainment",
       description:
-        "Tantric ritualist, sex expert & power Dom. \"Feel this ecstatic energy ripple through your whole body\"",
+        "Tantric ritualist, sex expert & power Dom.\n\"Feel this ecstatic energy ripple through your whole body\"",
     },
     {
       title: "Festivals and music concerts",
       description:
-        "LED flow artist extraordinaire & jubilant jester. \"And the crowd goes wild with exuberant energy!\"",
+        "LED flow artist extraordinaire & jubilant jester.\n\"And the crowd goes wild with exuberant energy!\"",
     },
     {
       title: "Children's entertainment",
       description:
-        "The exhilarating rubber ducky jester Whimsyduck. \"Waddling between worlds with wand and wonder in each wing\"",
+        "The exhilarating rubber ducky jester Whimsyduck.\n\"Waddling between worlds with wand and wonder in each wing\"",
     },
   ],
   fantasiesHeading: "My Bookable Signature Jester Fantasies",

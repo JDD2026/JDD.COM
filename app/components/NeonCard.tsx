@@ -44,6 +44,11 @@ export interface NeonCardProps {
    * @default "default"
    */
   size?: "default" | "large";
+  /**
+   * When true, center title and description text
+   * @default false
+   */
+  centerText?: boolean;
 }
 
 const variantClasses: Record<NeonCardVariant, string> = {
@@ -81,6 +86,7 @@ export function NeonCard({
   onClick,
   useVariantColorForText = false,
   size = "default",
+  centerText = false,
 }: NeonCardProps) {
   const textColorClass = useVariantColorForText
     ? iconColorClasses[variant]
@@ -105,6 +111,7 @@ export function NeonCard({
         "transition-all duration-300",
         "hover:scale-[1.02] hover:shadow-lg",
         variantClasses[variant],
+        centerText && "text-center",
         onClick && "cursor-pointer",
         className
       )}
@@ -119,7 +126,7 @@ export function NeonCard({
         <h3 className={cn(titleSizeClass, textColorClass)}>{title}</h3>
       )}
       {description && (
-        <p className={cn(descriptionSizeClass, descriptionColorClass)}>
+        <p className={cn(descriptionSizeClass, descriptionColorClass, "whitespace-pre-line")}>
           {description}
         </p>
       )}

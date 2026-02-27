@@ -31,7 +31,7 @@ export default function ExperiencesPage() {
           <h1 className="text-4xl font-bold md:text-5xl neon-text-purple text-shadow-neon-purple">
             Bookable Realms
           </h1>
-          <p className="mt-4 text-lg text-muted-foreground">{introHeading}</p>
+          <p className="mt-4 text-lg tracking-widest uppercase text-muted-foreground">{introHeading}</p>
         </div>
       </section>
 
@@ -101,6 +101,7 @@ export default function ExperiencesPage() {
               description={realm.description}
               useVariantColorForText
               size="large"
+              centerText
             />
           );
         })}
