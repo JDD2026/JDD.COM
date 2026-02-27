@@ -192,7 +192,7 @@ export default function ConsultingPage() {
       {/* CTA */}
       <section
         aria-label="Book a consultation"
-        className="flex justify-center px-4 py-12 sm:px-6"
+        className="flex justify-center px-4 sm:px-6"
       >
         <Link
           href={ctaButtonHref}
