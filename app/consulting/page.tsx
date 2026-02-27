@@ -86,7 +86,7 @@ export default function ConsultingPage() {
             src="/landing-images/6.jpg"
             width={1000}
             height={1000}
-            className="rounded-lg"
+            className="rounded-lg aspect-4/3 object-cover"
             alt="Entertainment Solutions consulting"
           />
 
@@ -107,7 +107,7 @@ export default function ConsultingPage() {
             src="/exp-images/Fantasy/41.jpg"
             width={1000}
             height={1000}
-            className="rounded-lg mb-6"
+            className="rounded-lg mb-6 aspect-4/3 object-cover"
             alt="Entertainment Solutions consulting"
           />
           <h2 className="text-center text-2xl font-semibold uppercase tracking-wide neon-text-purple text-shadow-neon-purple md:text-3xl">
