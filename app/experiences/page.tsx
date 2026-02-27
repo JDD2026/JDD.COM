@@ -174,6 +174,7 @@ export default function ExperiencesPage() {
           altPrefix="Jester fantasy"
           className="mb-6"
           topCropIndices={[12]}
+          scrollDurationSeconds={25}
           positionByIndex={{ 9: "center 25%" }}
         />
         <ScrollGallery
@@ -182,6 +183,8 @@ export default function ExperiencesPage() {
           className="mb-6"
           topCropIndices={[2]}
           positionByIndex={{ 6: "center 25%" }}
+          scrollDurationSeconds={25}
+          direction="ltr"
         />
 
         {/* Adult gallery - revealable */}
@@ -198,6 +201,13 @@ export default function ExperiencesPage() {
               <ScrollGallery
                 imagePaths={adultImagePaths}
                 altPrefix="Adult entertainment"
+                scrollDurationSeconds={25}
+                positionByIndex={{
+                  0: "center 28%",   // 22.jpg - shift down
+                  4: "75% center",   // 26.jpg - show more of right side
+                  6: "center 28%",   // 28.jpg - shift down
+                  8: "center 28%",   // 30.jpg - shift down
+                }}
               />
             </div>
           )}
