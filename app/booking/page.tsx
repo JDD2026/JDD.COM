@@ -17,7 +17,7 @@ export default function BookingPage() {
           <h1 className="text-4xl font-bold md:text-5xl neon-text-blue text-shadow-neon-blue">
             {heading}
           </h1>
-          <div className="mx-auto text-lg mt-4 space-y-2 text-muted-foreground">
+          <div className="mx-auto uppercase tracking-widest text-lg mt-6 space-y-2 text-muted-foreground">
             {introParagraphs.map((p, i) => (
               <p key={i}>{p}</p>
             ))}
