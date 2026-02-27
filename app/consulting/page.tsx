@@ -115,7 +115,7 @@ export default function ConsultingPage() {
           </h2>
 
           {/* G.E.T. package */}
-          <div className="mt-8 space-y-6 rounded-lg border border-border bg-card/50 p-6 md:p-8">
+          <NeonCard variant="blue" className="mt-8 space-y-6">
             <h3 className="text-xl font-semibold neon-text-blue text-shadow-neon-blue md:text-2xl">
               1. {getPackage.title}
             </h3>
@@ -144,10 +144,10 @@ export default function ConsultingPage() {
             <p className="font-medium italic neon-text-green text-shadow-neon-green">
               {getPackage.tagline}
             </p>
-          </div>
+          </NeonCard>
 
           {/* Idea Strategy Session */}
-          <div className="mt-8 space-y-4 rounded-lg border border-border bg-card/50 p-6 md:p-8">
+          <NeonCard variant="purple" className="mt-8 space-y-4">
             <h3 className="text-xl font-semibold neon-text-purple text-shadow-neon-purple md:text-2xl">
               2. {ideaSession.title}
             </h3>
@@ -160,7 +160,7 @@ export default function ConsultingPage() {
               </span>{" "}
               {ideaSession.outcome}
             </p>
-          </div>
+          </NeonCard>
         </div>
       </section>
 
