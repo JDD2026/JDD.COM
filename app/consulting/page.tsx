@@ -163,41 +163,62 @@ export default function ConsultingPage() {
         className="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen px-4 pb-10 sm:px-6 md:px-8"
       >
         <div className="relative z-10 mx-auto max-w-4xl">
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-3 mb-6">
-          <Image
-            src="/exp-images/Fantasy/49.jpg"
-            width={1000}
-            height={1000}
-            className="rounded-lg"
-            alt="Entertainment Solutions consulting"
-          />
-                    <Image
-            src="/about-images/15.jpg"
-            width={1000}
-            height={1000}
-            className="rounded-lg"
-            alt="Entertainment Solutions consulting"
-          />
-                    <Image
-            src="/exp-images/Fantasy/42.jpeg"
-            width={1000}
-            height={1000}
-            className="rounded-lg"
-            alt="Entertainment Solutions consulting"
-          />
-          </div>
-
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-            {valueBoxes.map((box, i) => (
-              <NeonCard
-                key={i}
-                variant={VALUE_BOX_VARIANTS[i]}
-                title={box.title}
-                description={box.description}
-                centerText
-                className="text-center"
+          {/* Mobile: image, card, image, card, image, card. Desktop: 3 images row, then 3 cards row */}
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-3 mb-6 md:mb-0">
+            <div className="md:order-1">
+              <Image
+                src="/exp-images/Fantasy/49.jpg"
+                width={1000}
+                height={1000}
+                className="rounded-lg"
+                alt="Entertainment Solutions consulting"
               />
-            ))}
+            </div>
+            <div className="md:order-4">
+              <NeonCard
+                variant={VALUE_BOX_VARIANTS[0]}
+                title={valueBoxes[0].title}
+                description={valueBoxes[0].description}
+                centerText
+                className="text-center flex flex-col items-center justify-center"
+              />
+            </div>
+            <div className="md:order-2">
+              <Image
+                src="/about-images/15.jpg"
+                width={1000}
+                height={1000}
+                className="rounded-lg"
+                alt="Entertainment Solutions consulting"
+              />
+            </div>
+            <div className="md:order-5">
+              <NeonCard
+                variant={VALUE_BOX_VARIANTS[1]}
+                title={valueBoxes[1].title}
+                description={valueBoxes[1].description}
+                centerText
+                className="text-center flex flex-col items-center justify-center"
+              />
+            </div>
+            <div className="md:order-3">
+              <Image
+                src="/exp-images/Fantasy/42.jpeg"
+                width={1000}
+                height={1000}
+                className="rounded-lg"
+                alt="Entertainment Solutions consulting"
+              />
+            </div>
+            <div className="md:order-6">
+              <NeonCard
+                variant={VALUE_BOX_VARIANTS[2]}
+                title={valueBoxes[2].title}
+                description={valueBoxes[2].description}
+                centerText
+                className="text-center flex flex-col items-center justify-center"
+              />
+            </div>
           </div>
           <p className="mx-auto neon-text-blue text-shadow-neon-blue text-xl lg:text-2xl mt-8 max-w-2xl text-center text-muted-foreground">
             {customPackagesNote}
