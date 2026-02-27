@@ -83,7 +83,7 @@ export default function ConsultingPage() {
           <p className="text-lg leading-relaxed">{entertainmentScienceIntro}</p>
           <p className="text-lg leading-relaxed">{credentialsParagraph}</p>
           <Image
-            src="/about-images/12.jpg"
+            src="/landing-images/6.jpg"
             width={1000}
             height={1000}
             className="rounded-lg"
@@ -170,13 +170,30 @@ export default function ConsultingPage() {
         className="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen px-4 pb-10 sm:px-6 md:px-8"
       >
         <div className="relative z-10 mx-auto max-w-4xl">
-        <Image
-            src="/consulting-hero.png"
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-3 mb-6">
+          <Image
+            src="/exp-images/Fantasy/49.jpg"
             width={1000}
             height={1000}
-            className="rounded-lg mb-10"
+            className="rounded-lg"
             alt="Entertainment Solutions consulting"
           />
+                    <Image
+            src="/about-images/15.jpg"
+            width={1000}
+            height={1000}
+            className="rounded-lg"
+            alt="Entertainment Solutions consulting"
+          />
+                    <Image
+            src="/exp-images/Fantasy/42.jpeg"
+            width={1000}
+            height={1000}
+            className="rounded-lg"
+            alt="Entertainment Solutions consulting"
+          />
+          </div>
+
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
             {valueBoxes.map((box, i) => (
               <NeonCard
