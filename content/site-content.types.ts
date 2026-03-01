@@ -119,6 +119,8 @@ export interface ConsultingGetPackage {
 export interface ConsultingIdeaSession {
   title: string;
   description: string;
+  descriptionBreakthroughs: string;
+  descriptionSignature: string;
   outcome: string;
 }
 
@@ -133,9 +135,12 @@ export interface ConsultingContent {
   questionBullets: string[];
   problemStatement: string;
   entertainmentScienceIntro: string;
+  entertainmentScienceApproach: string;
   credentialsParagraph: string;
+  credentialsExperienceParagraph: string;
   signatureQuote: string;
   credentialsParagraph2: string;
+  entertainmentScienceSolutionParagraph: string;
   signaturePackageHeading: string;
   getPackage: ConsultingGetPackage;
   ideaSession: ConsultingIdeaSession;

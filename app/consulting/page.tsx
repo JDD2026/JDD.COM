@@ -13,9 +13,12 @@ export default function ConsultingPage() {
     questionBullets,
     problemStatement,
     entertainmentScienceIntro,
+    entertainmentScienceApproach,
     credentialsParagraph,
+    credentialsExperienceParagraph,
     signatureQuote,
     credentialsParagraph2,
+    entertainmentScienceSolutionParagraph,
     signaturePackageHeading,
     getPackage,
     ideaSession,
@@ -74,7 +77,9 @@ export default function ConsultingPage() {
             {problemStatement}
           </p>
           <p className="text-lg leading-relaxed">{entertainmentScienceIntro}</p>
+          <p className="text-lg leading-relaxed">{entertainmentScienceApproach}</p>
           <p className="text-lg leading-relaxed">{credentialsParagraph}</p>
+          <p className="text-lg leading-relaxed">{credentialsExperienceParagraph}</p>
           <Image
             src="/landing-images/6.jpg"
             width={1000}
@@ -87,6 +92,7 @@ export default function ConsultingPage() {
             &ldquo;{signatureQuote}&rdquo;
           </blockquote>
           <p className="text-lg leading-relaxed">{credentialsParagraph2}</p>
+          <p className="text-lg leading-relaxed">{entertainmentScienceSolutionParagraph}</p>
         </div>
       </section>
 
@@ -146,6 +152,12 @@ export default function ConsultingPage() {
             </h3>
             <p className="text-muted-foreground leading-relaxed">
               {ideaSession.description}
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              {ideaSession.descriptionBreakthroughs}
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              {ideaSession.descriptionSignature}
             </p>
             <p className="font-medium text-foreground">
               <span className="neon-text-purple text-shadow-neon-purple">
