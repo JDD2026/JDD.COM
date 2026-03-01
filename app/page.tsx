@@ -94,7 +94,7 @@ export default function HomePage() {
           >
               <div className="absolute hero-video-neon-frame-purple inset-0 overflow-hidden rounded-lg">
               <iframe
-          src='https://www.youtube.com/embed/Ux6b-vC2UDU?autoplay=1&mute=1&cc_load_policy=1'
+          src='https://www.youtube.com/embed/Ux6b-vC2UDU?autoplay=1&mute=1&cc_load_policy=1&loop=1&playlist=Ux6b-vC2UDU'
           title={videoAriaLabel}
           className={`object-cover absolute inset-0 h-full w-full border-0`}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
