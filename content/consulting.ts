@@ -27,7 +27,7 @@ export const consultingContent: ConsultingContent = {
     "With Entertainment Science we identify, troubleshoot & rectify these problems to make your event shine. Your success is our #1 goal.",
   signaturePackageHeading: "My signature package experience:",
   getPackage: {
-    title: "The G.E.T. strategic upgrade (3-month intensive)",
+    title: "The G.E.T. strategic upgrade (1 to 3 month intensive)",
     description: "",
     phases: [
       {
