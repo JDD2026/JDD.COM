@@ -3,18 +3,18 @@ import type { ConsultingContent } from "./site-content.types";
 export const consultingContent: ConsultingContent = {
   welcomeHeading: "Welcome To",
   introParagraph:
-    "expert event strategic & consulting services",
+    "Transform your event with expert strategic & consulting services",
   questionBullets: [
     "Are your goals or vision not being fully realized by your event?",
     "Are you in need of expert strategic advice to launch?",
-    "Do you wish to grow your event and reach its next attendance level?",
+    "Do you wish to grow your event to its next attendance level?",
   ],
   problemStatement:
-    "If your event feels flat, fragmented, or stuck at the same attendance ceiling — the problem isn't effort. It's architecture.",
+    "If your event feels flat, fragmented, or stuck at the same ceiling — the problem isn't effort. It's architecture.",
   entertainmentScienceIntro:
-    "Grow, evolve & transform your event with the innovative 'Entertainment Science', A Ph.D.-level program.",
+    "Grow, evolve & transform your event with the 'Entertainment Science' suite, an innovative Ph.D.-level program.",
   entertainmentScienceApproach:
-    "My unique approach employs the scientific method of deep inquiry, creative design & data analysis to reach your goals.",
+    "My unique approach employs the scientific method of deep inquiry, creative design & data analysis to meet your strategic goals.",
   credentialsParagraph:
     "I have produced more than 50 successful events, built 2 communities from the ground up (Lust X & AfterGlow), and attended more than 1000 events.",
   credentialsExperienceParagraph:
@@ -24,7 +24,7 @@ export const consultingContent: ConsultingContent = {
   credentialsParagraph2:
     "I have seen many events fail to reach their full potential or goals because of creative limitations, execution missteps, technical problems, or lack of structure.",
   entertainmentScienceSolutionParagraph:
-    "With Entertainment Science we identify, troubleshoot & rectify these problems to make your event shine.",
+    "With Entertainment Science we identify, troubleshoot & rectify these problems to make your event shine. Your success is our #1 goal.",
   signaturePackageHeading: "My signature package experience:",
   getPackage: {
     title: "The G.E.T. strategic upgrade (3-month intensive)",
@@ -59,16 +59,16 @@ export const consultingContent: ConsultingContent = {
       "Implementation checklist",
     ],
     tagline:
-      "Become the talk of town with G.E.T.'s continuously improving & upward spiral upgrade.",
+      "Become the talk of town with G.E.T.'s continuously improving upgrade, 'The Upward Spiral'.",
   },
   ideaSession: {
-    title: "The $1,000 Idea Strategy Session",
+    title: "The $1,000 Mindset Shift",
     description:
-      "A 90-minute high-impact intensive session designed to extract one leverage point that unlocks transformative growth.",
+      "A 90-minute high-impact intensive session designed to extract creative leverage points to unlock transformative growth.",
     descriptionBreakthroughs:
-      "Prepare for breakthroughs that sharpen your strategy, expand your mindset & awaken your intuition.",
+      "Prepare for breakthroughs that sharpen your strategy, expand your horizons & awaken your intuition.",
     descriptionSignature:
-      "With my signature '$1,000 idea' we will develop a high impact insight, mindset shift or system that expands your thinking to open new doorways.",
+      "With my signature '$1,000 Mindset Shift' we will develop high impact insights, mindset shift or system to expand your thinking to open new doorways.",
     outcome: "One actionable strategic shift with implementation plan.",
   },
   valueBoxes: [
