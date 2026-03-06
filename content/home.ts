@@ -2,15 +2,15 @@ import type { HomeContent } from "./site-content.types";
 
 export const homeContent: HomeContent = {
   hero: {
-    tagline: "The most fun, creative & exciting merryman in town!",
+    tagline: "Transformative experiences, live entertainment & coaching services",
     invocation: [
       "Step inside my realm of magic & mischief!",
       "I am Jester Dapper Dan – chic, whimsical, effervescent™",
     ],
     identity:
-      "I am a fantasy court jester of the 21st century with a Ph.D.",
+      "I am a fantasy court jester of the 21st century with a Ph.D. and the most fun, creative & exciting merryman in town.",
       identity2:
-      "I bring incomparable elegance, inimitable wit and insuperable enthusiasm everywhere I go.",
+      "I bring incomparable elegance, inimitable wit and insuperable enthusiasm wherever I go.",
     energy1:
       "I don't perform. I don't party. I don't do industry standard.",
     energy2:
@@ -24,7 +24,7 @@ export const homeContent: HomeContent = {
     "/exp-images/Fantasy/41.jpg",
     "/landing-images/6.jpg",
   ],
-  skillsHeading: "I am a jack of all trades and trickster jester of many hats, skills & passions:",
+  skillsHeading: "I am a trickster & jack of all trades. You will encounter these skills & passions among my many jester hats:",
   skillsList: [
     "Trickster Comedian",
     "Captivating MC",
@@ -40,7 +40,7 @@ export const homeContent: HomeContent = {
     "Psychedelic Artist",
   ],
   eventTypesIntro:
-    "Book me to bring my signature electrifying energy, exuberant whimsy & next-level excitement to transform your event",
+    "Book me to transform any event with my signature electrifying energy, exuberant whimsy & magnetic excitement",
   eventTypesList: [
     "intimate gatherings",
     "big stages",
