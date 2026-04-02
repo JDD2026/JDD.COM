@@ -2,7 +2,7 @@ import type { HomeContent } from "./site-content.types";
 
 export const homeContent: HomeContent = {
   hero: {
-    tagline: "I design transformative curated experiences, stunning live entertainment & expert event strategic services",
+    tagline: "I design transformative curated experiences & stunning live entertainment",
     invocation: [
       "Step inside my realm of magic & mischief!",
       "I am Jester Dapper Dan – chic, whimsical, effervescent™",
