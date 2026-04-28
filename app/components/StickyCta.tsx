@@ -1,7 +1,18 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { homeContent } from "@/content";
 
+const hiddenCtaRoutes = ["/aiw"];
+
 export function StickyCta() {
+  const pathname = usePathname();
+
+  if (hiddenCtaRoutes.includes(pathname)) {
+    return null;
+  }
+
   return (
     <div
       className="sticky top-16 z-30 flex justify-center py-2 sm:top-25"
