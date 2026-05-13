@@ -148,7 +148,7 @@ export default function AIWPage() {
         <h1 className="font-playfair text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight max-w-4xl mb-6">
           Transform Your Work with{" "}
           <span className="neon-text-blue" style={{ textShadow: "0 0 20px #00c8ff, 0 0 40px #0088cc" }}>
-            Altruistic Intelligence
+            Altruistic Intelligence Systems
           </span>
         </h1>
 
@@ -158,7 +158,7 @@ export default function AIWPage() {
         </h2>
 
         <p className="text-gray-400 max-w-xl text-base sm:text-lg leading-relaxed mb-10">
-          A hands-on, values-aligned AI systems workshop for creative entrepreneurs who already use ChatGPT — and want sharper outputs,{" "}
+          A hands-on, values-aligned AI systems workshop for creatives and overloaded professionals who already use ChatGPT — and want sharper outputs,{" "}
           <span style={{ color: "#33d4ff" }}>clearer decisions</span>, and smoother operations.
         </p>
 
@@ -223,10 +223,10 @@ export default function AIWPage() {
           What This Program Does
         </h2>
         <p className="text-gray-300 text-lg leading-relaxed max-w-2xl mx-auto mb-6">
-          <span style={{ color: "#33d4ff" }}>Transform Your Work with Altruistic Intelligence</span> is a 5-session live workshop for creative entrepreneurs already using ChatGPT — designed to upgrade their work through a highly-organized execution system and methodology.
+          <span style={{ color: "#33d4ff" }}>Transform Your Work with Altruistic Intelligence Systems</span> is a 5-session live workshop for creative entrepreneurs already using ChatGPT — designed to upgrade their work through a highly-organized execution system and methodology.
         </p>
         <p className="text-gray-400 text-base leading-relaxed max-w-2xl mx-auto">
-          This is <strong className="text-white">not</strong> AI 101. Not a prompt list. Not passive lecture theater.
+          This is <strong className="text-white">not</strong> AI 101, a prompt list or a passive lecture.
           It is a hands-on systems workshop where students build the actual structures they will keep using after the workshop ends.
         </p>
       </section>
@@ -270,7 +270,7 @@ export default function AIWPage() {
       <section className="px-6 py-20 max-w-4xl mx-auto text-center">
         <h2 className="font-playfair text-3xl sm:text-4xl font-bold mb-6">Who This Is For</h2>
         <p className="text-gray-400 text-base max-w-xl mx-auto mb-10 leading-relaxed">
-          This workshop is for creative entrepreneurs already using ChatGPT who want better output, streamlined decision-making, and more organized execution.
+          This workshop is for creatives and overloaded professionals already using ChatGPT who want better output, streamlined decision-making, and more organized execution.
         </p>
         <div className="flex flex-wrap gap-3 justify-center mb-10">
           {["Community Leaders", "Healers", "Neurodivergents", "Coaches & Consultants", "Polymath Operators", "Small Creative-Business Owners", "Independent Creators"].map((role) => (
@@ -598,8 +598,7 @@ export default function AIWPage() {
       <section className="px-6 py-20 max-w-4xl mx-auto">
         <h2 className="font-playfair text-3xl sm:text-4xl font-bold mb-4 text-center">This Is For You If</h2>
         <p className="text-gray-400 text-center max-w-lg mx-auto mb-10 text-sm">
-          The goal is trust and self-selection — not pressure.
-        </p>
+          </p>
         <div className="space-y-3 max-w-2xl mx-auto">
           {FOR_YOU_IF.map((item) => (
             <div key={item} className="flex items-start gap-4 p-4 rounded-xl border border-gray-800 bg-gray-900/30">
@@ -644,7 +643,7 @@ export default function AIWPage() {
 
       {/* ── FOOTER ─────────────────────────────────────────── */}
       <footer className="px-6 py-8 border-t border-gray-900 text-center">
-600        <p className="text-gray- text-xs">
+        <p className="text-gray- text-xs">
           © {new Date().getFullYear()} Jester Dapper Dan ·{" "}
           <a href="https://www.jesterdapperdan.com" className="hover:text-gray-400 transition-colors">
             JesterDapperDan.com
